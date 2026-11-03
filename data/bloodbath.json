@@ -1,0 +1,18 @@
+{
+    "id": 10565740,
+    "name": "Bloodbath",
+    "author": "Riot",
+    "creators": ["Riot"],
+    "verifier": "Wysie",
+    "verification": "https://www.youtube.com/watch?v=J-tP1oPOTPo",
+    "percentToQualify": 34,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user": "Rafael",
+            "link": "https://www.youtube.com/watch?v=oOJmJxfUXP8",
+            "percent": 100,
+            "hz": 999
+        }
+    ]
+}
