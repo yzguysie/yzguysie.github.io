@@ -1,0 +1,12 @@
+{
+    "name": "test",
+    "id": -1,
+    "author": "test",
+    "creators": [
+        "test"
+    ],
+    "verifier": "test",
+    "verification": "test",
+    "percentToQualify": "test",
+    "password": "test"
+}
