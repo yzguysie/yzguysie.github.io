@@ -28,10 +28,10 @@ def main():
             if mode == 1:
                 level: dict = {}
 
-                str_in = input("Please enter the name of the level: ")
-                level["name"] = str_in
                 str_in = input("Please enter the id of the level: ")
                 level["id"] = int(str_in)
+                str_in = input("Please enter the name of the level: ")
+                level["name"] = str_in
                 str_in = input("Please enter the author of the level: ")
                 level["author"] = str_in
                 creators = []
@@ -48,6 +48,7 @@ def main():
                 level["percentToQualify"] = str_in
                 str_in = input("Please enter the password to copy the level (Not Copyable if not):")
                 level["password"] = str_in
+                level["records"] = []
                 level_string = level["name"].lower().replace(" ", "_") + ".json"
                 with open("data/"+level_string, "w") as file:
                     json.dump(level, file, indent=4)
