@@ -106,14 +106,14 @@ def main():
                 level["verification"] = str_in
                 str_in = input("Please enter the percentToQualify: ")
                 level["percentToQualify"] = str_in
-                str_in = input("Please enter the password to copy the level (Not Copyable if not):")
+                str_in = input("Please enter the password to copy the level (Not Copyable if not): ")
                 level["password"] = str_in
                 level["records"] = []
                 level_string = level["name"].lower().replace(" ", "_")
                 with open("data/"+level_string + ".json", "w") as file:
                     json.dump(level, file, indent=4)
 
-                str_in = input("Successfully addded " + level_string + " to files. Add to list? (y/n)")
+                str_in = input("Successfully addded " + level_string + " to files. Add to list? (y/n): ")
                 if (str_in == "y"):
                     print_list()
                     str_in = input("What place would you like to put the level: ")
